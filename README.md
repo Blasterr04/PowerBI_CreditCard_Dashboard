@@ -61,8 +61,8 @@ CREATE TABLE customer_detail (
 );
 ```
 ### ⚙️ DAX Measures & Calculations
-```dax
--- 🧑‍🤝‍🧑 Customer Segmentation
+```sql
+🧑‍🤝‍🧑 Customer Segmentation
 AgeGroup = 
 SWITCH(
     TRUE(),
@@ -85,7 +85,7 @@ SWITCH(
 )
 
 
--- 💰 Revenue Calculations
+💰 Revenue Calculations
 Revenue = 
 VAR InterchangeRevenue = 'public creditcard_detail'[total_trans_amt] * 0.02
 VAR AnnualFeeRevenue = 'public creditcard_detail'[annual_fees]
@@ -117,5 +117,4 @@ DIVIDE(
     ([Current_Week_Revenue] - [Previous_Week_Revenue]),
     [Previous_Week_Revenue]
 )
-
 ```
