@@ -118,3 +118,66 @@ DIVIDE(
     [Previous_Week_Revenue]
 )
 ```
+# 📊 Dashboard Components
+
+## 💳 Credit Card Transactions Dashboard
+
+| **Metric**              | **Value**   |
+|--------------------------|-------------|
+| Overall Revenue          | $57M        |
+| Total Interest Earned    | $8M         |
+| Total Transaction Amount | $46M        |
+| Activation Rate          | 57.5%       |
+| Delinquent Rate          | 6.06%       |
+
+### 🔍 Transaction Analysis
+- Weekly revenue trends and comparisons  
+- Transaction volume by card category  
+- Utilization patterns across demographics  
+- Expense type distribution  
+- Chip usage vs. other payment methods  
+
+---
+
+## 👥 Credit Card Customers Dashboard
+
+### 📌 Customer Demographics
+
+| **Segment**                     | **Value**   |
+|---------------------------------|-------------|
+| Male Customers Contribution     | $31M        |
+| Female Customers Contribution   | $26M        |
+| Blue & Silver Card Dominance    | 93% of transactions |
+| Top States (TX, NY, CA)         | 68% of revenue |
+
+### 🧑‍🤝‍🧑 Customer Segmentation
+- Age group distribution and spending patterns  
+- Income segmentation (Low, Medium, High, Very High)  
+- Geographic performance by state  
+- Education and occupation analysis  
+- Ownership status (Home, Car, Loans)  
+
+---
+
+## 💡 Key Insights
+
+### 📈 Performance Trends
+- Revenue increased by **28.8% Week-over-Week (Week 53)**  
+- Blue and Silver cards dominate with **93% of total transactions**  
+- Top 3 states (**TX, NY, CA**) contribute **68% of total revenue**  
+- Healthy activation rate of **57.5% within 30 days**  
+
+### 👥 Customer Behavior
+- Male customers contribute **$31M** vs **$26M** from female customers  
+- Age groups **30-50** show highest spending patterns  
+- High-income customers demonstrate superior credit utilization  
+- Homeowners show better repayment behavior than non-homeowners  
+
+### 📋 Operational Metrics
+- Overall delinquent rate maintained at **6.06%**  
+- Customer acquisition cost optimized through targeted campaigns  
+- Chip usage shows higher transaction security and customer trust  
+- Satisfaction scores correlate with higher credit limits and spending  
+
+---
+
