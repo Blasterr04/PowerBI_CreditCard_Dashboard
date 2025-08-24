@@ -61,7 +61,7 @@ CREATE TABLE customer_detail (
 );
 ```
 ### ⚙️ DAX Measures & Calculations
-```
+```python
 #### Customer Segmentation
 dax
 AgeGroup = SWITCH(
