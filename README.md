@@ -118,9 +118,9 @@ DIVIDE(
     [Previous_Week_Revenue]
 )
 ```
-# 📊 Dashboard Components
+## 📊 Dashboard Components
 
-## 💳 Credit Card Transactions Dashboard
+### 💳 Credit Card Transactions Dashboard
 
 | **Metric**              | **Value**   |
 |--------------------------|-------------|
@@ -130,7 +130,7 @@ DIVIDE(
 | Activation Rate          | 57.5%       |
 | Delinquent Rate          | 6.06%       |
 
-### 🔍 Transaction Analysis
+#### 🔍 Transaction Analysis
 - Weekly revenue trends and comparisons  
 - Transaction volume by card category  
 - Utilization patterns across demographics  
@@ -139,9 +139,9 @@ DIVIDE(
 
 ---
 
-## 👥 Credit Card Customers Dashboard
+### 👥 Credit Card Customers Dashboard
 
-### 📌 Customer Demographics
+#### 📌 Customer Demographics
 
 | **Segment**                     | **Value**   |
 |---------------------------------|-------------|
@@ -150,7 +150,7 @@ DIVIDE(
 | Blue & Silver Card Dominance    | 93% of transactions |
 | Top States (TX, NY, CA)         | 68% of revenue |
 
-### 🧑‍🤝‍🧑 Customer Segmentation
+#### 🧑‍🤝‍🧑 Customer Segmentation
 - Age group distribution and spending patterns  
 - Income segmentation (Low, Medium, High, Very High)  
 - Geographic performance by state  
@@ -159,21 +159,21 @@ DIVIDE(
 
 ---
 
-## 💡 Key Insights
+### 💡 Key Insights
 
-### 📈 Performance Trends
+#### 📈 Performance Trends
 - Revenue increased by **28.8% Week-over-Week (Week 53)**  
 - Blue and Silver cards dominate with **93% of total transactions**  
 - Top 3 states (**TX, NY, CA**) contribute **68% of total revenue**  
 - Healthy activation rate of **57.5% within 30 days**  
 
-### 👥 Customer Behavior
+#### 👥 Customer Behavior
 - Male customers contribute **$31M** vs **$26M** from female customers  
 - Age groups **30-50** show highest spending patterns  
 - High-income customers demonstrate superior credit utilization  
 - Homeowners show better repayment behavior than non-homeowners  
 
-### 📋 Operational Metrics
+#### 📋 Operational Metrics
 - Overall delinquent rate maintained at **6.06%**  
 - Customer acquisition cost optimized through targeted campaigns  
 - Chip usage shows higher transaction security and customer trust  
