@@ -59,4 +59,49 @@ CREATE TABLE customer_detail (
     Income INT,
     Cust_Satisfaction_Score INT
 );
+```
+### ⚙️ DAX Measures & Calculations
+```
+#### Customer Segmentation
+dax
+AgeGroup = SWITCH(
+    TRUE(),
+     'public customer_detail'[customer_age]<30,"20-30",
+     'public customer_detail'[customer_age]>=30 && 'public customer_detail'[customer_age] <40, "30-40",
+     'public customer_detail'[customer_age]>=40 && 'public customer_detail'[customer_age] <50, "40-50",
+     'public customer_detail'[customer_age]>=50 && 'public customer_detail'[customer_age] <60, "50-60",
+     'public customer_detail'[customer_age]>=60,"60+",
+     "unknown"
+)
 
+Income Group = 
+SWITCH(
+    TRUE(),
+    'public customer_detail'[income] < 35000, "Low",
+    'public customer_detail'[income] >= 35000 && 'public customer_detail'[income] <= 70000, "Medium",
+    'public customer_detail'[income] > 70000 && 'public customer_detail'[income] <= 100000, "High",
+    'public customer_detail'[income] > 100000, "Very High",
+    "Unknown"
+)
+#### Revenue Calculations
+dax
+Revenue = 
+VAR InterchangeRevenue = 'public creditcard_detail'[total_trans_amt] * 0.02
+VAR AnnualFeeRevenue = 'public creditcard_detail'[annual_fees]
+VAR TotalRevenue = 'public creditcard_detail'[interest_earned] + InterchangeRevenue + AnnualFeeRevenue
+RETURN TotalRevenue
+
+Current_Week_Revenue = CALCULATE(
+    SUM('public creditcard_detail'[Revenue]),
+    FILTER(
+        ALL('public creditcard_detail'),
+        'public creditcard_detail'[week_num2] = MAX('public creditcard_detail'[week_num2])))
+
+Previous_Week_Revenue = CALCULATE(
+    SUM('public creditcard_detail'[Revenue]),
+    FILTER(
+        ALL('public creditcard_detail'),
+        'public creditcard_detail'[week_num2] = MAX('public creditcard_detail'[week_num2])-1))
+
+wow_revenue = DIVIDE(([Current_Week_Revenue] - [Previous_Week_Revenue]),[Previous_Week_Revenue])
+```
