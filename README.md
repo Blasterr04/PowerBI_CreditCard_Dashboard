@@ -12,7 +12,7 @@ This Power BI project transforms raw Excel transaction and customer data into a 
 4. **Dashboard Creation**: Development of two interactive dashboards
 
 ### Primary Objectives
-- Monitor revenue growth (WoW, YTD trends)
+- Monitor revenue growth
 - Analyze transaction volume and card performance
 - Segment customers by demographics and behavior
 - Identify top-performing geographies and card categories
@@ -127,7 +127,6 @@ DIVIDE(
 | Overall Revenue          | $12M        |
 | Total Interest Earned    | $8M         |
 | Total Transaction Amount | $46M        |
-| Activation Rate          | 57.5%       |
 | Delinquent Rate          | 6.06%       |
 
 #### 🔍 Transaction Analysis
