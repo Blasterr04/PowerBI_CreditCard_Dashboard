@@ -124,7 +124,7 @@ DIVIDE(
 
 | **Metric**              | **Value**   |
 |--------------------------|-------------|
-| Overall Revenue          | $57M        |
+| Overall Revenue          | $12M        |
 | Total Interest Earned    | $8M         |
 | Total Transaction Amount | $46M        |
 | Activation Rate          | 57.5%       |
@@ -145,10 +145,10 @@ DIVIDE(
 
 | **Segment**                     | **Value**   |
 |---------------------------------|-------------|
-| Male Customers Contribution     | $31M        |
-| Female Customers Contribution   | $26M        |
-| Blue & Silver Card Dominance    | 93% of transactions |
-| Top States (TX, NY, CA)         | 68% of revenue |
+| Male Customers Contribution     | $6M        |
+| Female Customers Contribution   | $6M        |
+| Blue & Silver Card Dominance    | 94.24% of revenue |
+| Top States (TX, NY, CA)         | 69.1% of revenue |
 
 #### 🧑‍🤝‍🧑 Customer Segmentation
 - Age group distribution and spending patterns  
@@ -162,14 +162,13 @@ DIVIDE(
 ### 💡 Key Insights
 
 #### 📈 Performance Trends
-- Revenue increased by **28.8% Week-over-Week (Week 53)**  
-- Blue and Silver cards dominate with **93% of total transactions**  
-- Top 3 states (**TX, NY, CA**) contribute **68% of total revenue**  
-- Healthy activation rate of **57.5% within 30 days**  
+- Revenue increased by **5.71% Week-over-Week (Week 53)**  
+- Blue and Silver cards dominate with **94.24% of total revenue**  
+- Top 3 states (**TX, NY, CA**) contribute **69.1% of total revenue**  
 
 #### 👥 Customer Behavior
-- Male customers contribute **$31M** vs **$26M** from female customers  
-- Age groups **30-50** show highest spending patterns  
+- Male customers contribute **$6M** vs **$6M** from female customers  
+- Age groups **40-50** show highest spending patterns  
 - High-income customers demonstrate superior credit utilization  
 - Homeowners show better repayment behavior than non-homeowners  
 
